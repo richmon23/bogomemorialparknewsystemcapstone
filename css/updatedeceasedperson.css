@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Hedvig Letters Serif', serif;
+   
+}
+.my-background {
+    
+    position: relative;
+   
+    /* Add other styles as needed */
+  }
+  .my-background img{
+      width: 100%;
+      
+      
+  }
+
+.container{
+    /* background: dodgerblue; */
+    height:500px;
+    width:700px;
+    position:absolute;
+    top:220px;
+    left:400px;
+    background:transparent;
+    border:2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 25px;
+}
+.img{
+    width:300px;
+  position: absolute;
+  top:50px;
+  left:600px;
+  
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+   
+
+}
+.submit{
+    width:30%;
+    height:45px;
+    margin-left:100px;
+    background-color: orange;
+   
+}
+.cancel {
+    width:30%;
+    height:45px;
+    margin-left: 90px;
+    background-color: tomato;
+    padding: 10px;
+   text-align: center;
+} 
+ .submit:hover{
+    background:dodgerblue;
+    color:white;
+}
+ .cancel:hover{
+    background:red;
+    color:white;
+} 
+/* .form-control {
+    background:transparent;
+    border:2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(20px);
+  
+} */
+
+
+   /* Date input */
+
+input[type="date"]::before {
+    content: attr(placeholder);
+    position: absolute;
+    color: #0a0a0a;
+  }
+  
+  input[type="date"] {
+    color: #ffffff;
+  }
+  
+  input[type="date"]:focus,
+  input[type="date"]:valid {
+    color: hsl(0, 0%, 40%);
+  }
+  
+  input[type="date"]:focus::before,
+  input[type="date"]:valid::before {
+    content: "";
+  }
+

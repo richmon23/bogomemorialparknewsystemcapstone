@@ -1,0 +1,224 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+img{
+    width: 440px;
+    height: 400px;
+}
+.box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation:animate 20s linear infinite;
+}
+@keyframes animate{
+    0%
+    {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%
+    {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+body{
+    min-height: 100vh;
+    background: #000;
+}
+
+.box span{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;  
+    transform-origin:center;
+    transform-style:preserve-3d;
+    transform:rotateY(calc(var(--i)* 45deg)) translateZ(400px);
+    -webkit-box-reflect:below 0px liner-gradient(transparent,transparent,#0004);
+}
+.box span img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+ */
+
+
+ 
+    /* ---  Scrollbar --*/
+    html {
+        --scrollbarBG: #cfd8dc;
+        --thumbBG: #0937c1;
+      }
+      body::-webkit-scrollbar {
+        width: 20px;
+      }
+      body {
+        scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+      }
+      body::-webkit-scrollbar-track {
+        background: var(--scrollbarBG);
+      }
+      body::-webkit-scrollbar-thumb {
+        background-color: var(--thumbBG);
+        border-radius: 2px;
+        border: 1px solid var(--scrollbarBG);
+      }
+      /* ---  Scrollbar --*/
+
+ *,html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    background:transparent;
+    /* border:2px solid rgba(255,255,255,2); */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+   
+}
+
+.header{
+    /* background-color: #114B5F; */
+    background:transparent;
+    /* border:2px solid rgba(255,255,255,2); */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+   
+}
+.dropdown-menu{
+    background:transparent;
+    /* border:2px solid rgba(255,255,255,2); */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+   
+}
+.hero-pic img{
+width:100%;
+
+}
+.h1,.bq{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+  
+}
+.packages{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+
+  
+}
+
+.bogomemorialparkimg img{
+    border-radius: 25px;
+}
+body{
+    background-color: #114B5F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.card-details img{
+height:250px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #114B5F;
+    height: 120px;
+ 
+  
+}
+.footer img{
+    width: 20px;
+ 
+}
+hr{
+    color: white;
+}
+
+
+/* lot checker page */ 
+
+.carousel{
+    margin-top:20px;
+}
+
+
+.plotmap{
+    margin-left:10vmin;
+    width:10vmin;
+}
+.block1text{
+ padding-left: 200px;
+}
+.plot{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black
+}
+.map-plot{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.reservation{
+    color:white;
+    width:400px;
+    height:200px;
+    position: absolute;
+    top:470px;
+    left:80px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background:transparent;
+    border:2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+   
+
+}
+.reservation a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.reservation a:hover{
+    text-decoration:underline;
+    background-color: orange;
+    color:black;
+}
+ /* Photo Background */
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: url('../images/background4.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: 2px;
+    -webkit-backdrop-filter: blur(20px);
+    
+   
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+}
+

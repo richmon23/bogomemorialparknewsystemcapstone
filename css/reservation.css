@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Hedvig Letters Serif', serif;
+   
+}
+
+.my-background {
+    
+    position: relative;
+   
+    /* Add other styles as needed */
+  }
+  .my-background img{
+      width: 100%;
+      
+      
+  }
+
+.container{
+    /* background: dodgerblue; */
+    height:500px;
+    width:650px;
+    position:absolute;
+    top:220px;
+    left:450px;
+    background:transparent;
+    border:2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 25px;
+}
+body{
+    background: url('../images/dvn6.jpg');
+}
+.img{
+    width:300px;
+    position: absolute;
+    top:50px;
+    left:600px;
+  
+}
+.form-control{
+    align-items: center;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+   
+
+}
+.submit{
+    width:30%;
+    height:45px;
+    margin-left:80px;
+    background-color: orange;
+   
+}
+.cancel {
+  width:30%;
+  height:45px;
+  margin-left: 90px;
+  background-color: tomato;
+  padding: 10px;
+  text-align: center;
+} 
+ .submit:hover{
+    background:dodgerblue;
+    color:white;
+}
+ .cancel:hover{
+    background:red;
+    color:white;
+} 
+.package{
+    width: 300px;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+.fullname{
+    margin-left: 20px;
+}.email{
+    margin-left: 20px;
+}
+.contact{
+    margin-left: 20px;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    background:url('../images/dvn6.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    background:transparent;
+   
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.card{
+    background:transparent;
+    border:2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width:500px;
+    display: flex;
+ 
+}
+label{
+    float: left;
+}
+h6 ,a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+   color:black;
+}
+input{
+    color: #fff;
+}

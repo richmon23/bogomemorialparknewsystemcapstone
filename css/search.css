@@ -1,0 +1,102 @@
+
+.map{
+    margin-top: 60px;
+    margin-right:20px;
+    width:450px;
+    height:550px;
+    background-color: gray;
+    color:white;
+    position: absolute;
+    left: 65%;
+    bottom:2%; 
+  
+  
+}
+
+.button{
+    border-radius: 25px;
+}
+
+
+label{
+    color: black;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+   
+
+}
+.submit{
+    width:30%;
+    height:45px;
+    margin-left:90px;
+    margin-bottom: 15px;
+    background-color: orange;
+   
+}
+.cancel {
+  width:30%;
+  height:45px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  background-color: tomato;
+  padding: 10px;
+  text-align: center;
+} 
+ .submit:hover{
+    background:dodgerblue;
+    color:white;
+}
+ .cancel:hover{
+    background:red;
+    color:white;
+}
+.availability{
+    display: inline;
+    position: absolute;
+    top:350px;
+    left:10px;
+    font-size: 10px;
+}
+.Available{
+    margin-left:40px;
+    background-color: blue;
+    width: 50px;
+    height:50px;
+    
+}
+.Available h5{
+    padding-left: 70px;
+    padding-top: 9px;
+    font-size: 13px;
+
+}
+.notavailable{
+    margin-left:40px;
+    background-color: black;
+    width: 50px;
+    height:50px;
+}
+.notavailable h5{
+    padding-left: 70px;
+    padding-top: 9px;
+    font-size: 13px;
+    
+
+}
+#modal{
+    position: absolute;
+    top:30px;
+    background-color: gray;
+    height:500px;
+}
+#modal button{
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    width:100px;
+    height:50px;
+}

@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+/* The Modal (background) */
+nav{
+    background:teal ;
+}
+ .map{
+    margin-top: 60px;
+    margin-right:20px;
+    width:450px;
+    height:550px;
+    background-color: gray;
+    color:white;
+    position: absolute;
+    left: 65%;
+    bottom: 2%; 
+  
+  
+}
+.container{
+display: flex;
+position: relative;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+   
+
+}
+.submit{
+    width:30%;
+    height:45px;
+    margin-left:90px;
+    margin-bottom: 15px;
+    background-color: orange;
+   
+}
+.cancel {
+  width:30%;
+  height:45px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  background-color: tomato;
+  padding: 10px;
+  text-align: center;
+} 
+ .submit:hover{
+    background:dodgerblue;
+    color:white;
+}
+ .cancel:hover{
+    background:red;
+    color:white;
+}
+.availability{
+    display: inline;
+    position: absolute;
+    top:350px;
+    left:10px;
+    font-size: 10px;
+}
+.Available{
+    margin-left:40px;
+    background-color: blue;
+    width: 50px;
+    height:50px;
+    
+}
+.Available h5{
+    padding-left: 70px;
+    padding-top: 9px;
+    font-size: 13px;
+
+}
+.notavailable{
+    margin-left:40px;
+    background-color: black;
+    width: 50px;
+    height:50px;
+}
+.notavailable h5{
+    padding-left: 70px;
+    padding-top: 9px;
+    font-size: 13px;
+    
+
+}
+label{
+    color:black;
+}
+.search{
+    width:110px;
+}
